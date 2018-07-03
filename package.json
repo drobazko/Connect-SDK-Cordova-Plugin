@@ -1,9 +1,9 @@
 {
-    "name": "cordova-plugin-connectsdk",
-    "version": "1.6.2",
+    "name": "cordova-plugin-connectsdk-cc",
+    "version": "1.6.4",
     "description": "Connect SDK allows discovery and communication with LG TVs and other smart devices on the local network.",
     "cordova": {
-        "id": "cordova-plugin-connectsdk",
+        "id": "cordova-plugin-connectsdk-cc",
         "platforms": [
             "ios",
             "android"
@@ -19,8 +19,6 @@
         "TV",
         "Connect SDK",
         "remote control",
-        "DLNA",
-        "DIAL",
         "cast",
         "ecosystem:cordova",
         "cordova-ios",
