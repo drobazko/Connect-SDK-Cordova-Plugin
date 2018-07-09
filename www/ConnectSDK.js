@@ -1644,7 +1644,7 @@ registerDeviceInterface("mediaPlayer",
      * @success {mediaLaunchCallback}
      */
     playMedia: {
-        args: ["url", "mimeType", "options?"],
+        args: ["url", "mimeType", "position", "options?"],
         responseWrapper: wrapMediaLaunchSession,
         subscribe: true
     },

@@ -777,6 +777,9 @@ public class JSCommandDispatcher {
         String url = args.getString("url");
         String mimeType = args.getString("mimeType");
 
+        double positionSeconds = args.getDouble("position");
+        long position = (long) (1000L * positionSeconds);
+
         String title = null;
         String description = null;
         String iconSrc = null;
@@ -803,6 +806,7 @@ public class JSCommandDispatcher {
                 .setTitle(title)
                 .setDescription(description)
                 .setIcon(iconSrc)
+                .setPosition(position)
                 .setSubtitleInfo(subtitles)
                 .build();
 
