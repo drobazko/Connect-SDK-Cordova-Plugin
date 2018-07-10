@@ -29,11 +29,11 @@ If you are only developing for one platform, feel free to ignore the steps & req
 
 #### 2. Add plugin to app
 
-    cordova plugin add cordova-plugin-connectsdk-cc
+    cordova plugin add cordova-plugin-connectsdk-chrome-cast
 
-Or for a specific version, such as 1.6.4
+Or for a specific version, such as 1.6.6
 
-    cordova plugin add cordova-plugin-connectsdk@1.6.4
+    cordova plugin add cordova-plugin-connectsdk@1.6.6
     
 You can also install a specific branch from Github (e.g. to install versions older than 1.6.0), such as sdk_1.3
 
